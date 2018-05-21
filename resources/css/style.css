@@ -18,7 +18,7 @@ header {
   border: 2px solid black;
 }
 span{
-  font-size: 32px;
+  font-size: 1.5rem;
 }
 .logo  {
   display: flex;
@@ -31,6 +31,16 @@ span{
 }
 nav span {
   padding-right: 16px;
+
+}
+nav span a{
+  text-decoration: none;
+  color: #808080;
+}
+
+nav span a:hover {
+  text-decoration: none;
+  color: #ADD8E6;
 }
 nav .sign-in{
   padding-right: 24px;
@@ -99,7 +109,7 @@ img {
 
 
 }
-.information h3{
+ h3{
   padding-bottom: 32px;
   font-size:  3rem;
 }
@@ -110,7 +120,7 @@ img {
 
 }
 
-.information p {
+ p {
   font-size: 24px;
 }
 
@@ -153,9 +163,93 @@ img {
 }
 
 .course {
+ padding: 32px 72px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ border: 4px solid darkgreen;
+ background-color: #DDDDDD;
+}
+
+ h1{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 32px;
+}
+.individual{
+  margin-bottom: 32px;
+  width: 28%;
+  margin-right: 32px;
+  border: 4px solid darkblue;
+  background-color: white;
+
+}
+.individual img{
+  height: auto;
+
+
+}
+.course-content {
+  padding: 16px 0 24px 16px;
+}
+.course-content h2{
+  font-size: 28px;
+  font-weight: 600;
+  padding: 8px 0;
+}
+.course-content span{
+  font-size: 1.5rem;
+}
+
+.thesis {
+
+
+  border: 5px solid yellow;
+  max-width: 100%;
+}
+.extra{
+  display: flex;
+}
+.thesis video{
+  width: 100%;
+  padding-bottom:  24px;
+}
+
+footer{
+
+  padding: 16px 5px 32px 24px;
 
 }
 
-.course h1{
-  font-size: 2rem;
+footer .connect{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  border: 5px solid green;
+  padding-right: 4em;
+}
+
+.connect h4{
+  font-size: 1.5rem;
+  float: right;
+}
+.connect .font-awesome i{
+  padding-right: 9px;
+
+}
+footer .copyright{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+footer .terms-privacy span{
+  padding-right: 8px;
+}
+
+footer span {
+  font-size: 1rem;
 }
