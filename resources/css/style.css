@@ -1,0 +1,161 @@
+html{
+  font-size: 16px;
+  margin: 0;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  height:64px;
+  border: 2px solid yellow;
+  justify-content: space-between;
+}
+
+.header {
+
+  padding-left: 24px;
+  border: 2px solid black;
+}
+span{
+  font-size: 32px;
+}
+.logo  {
+  display: flex;
+  align-items: center;
+  border: 4px solid red;
+  height: 32px;
+}
+.colmar{
+  font-weight: 900;
+}
+nav span {
+  padding-right: 16px;
+}
+nav .sign-in{
+  padding-right: 24px;
+}
+
+.banner{
+  max-width: 100%;
+  border: 5px dotted black;
+  display: flex;
+  background-color: #DDDDDD;
+  justify-content: space-between;
+}
+.image-banner {
+
+  padding: 32px 24px;
+  border: 2px solid red;
+  width: 60%:
+}
+img {
+  width: 100%;
+  border: 2px solid red
+}
+.learn{
+  border: 5px solid green;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.learn h2 {
+  font-size:  3.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  padding-bottom: 2rem;
+}
+.learn p {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+.learn .box {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding-top:  8px;
+  padding-bottom: 8px;
+  background-color: grey;
+
+}
+
+.information {
+  display: flex;
+  border: 5px solid yellow;
+  max-width: 100%;
+}
+
+.left {
+  padding: 32px 24px;
+  border: 4px solid green;
+  min-width: 60%:
+
+}
+.left img{
+
+  padding-bottom: 32px;
+  max-width: 100%;
+
+
+}
+.information h3{
+  padding-bottom: 32px;
+  font-size:  3rem;
+}
+
+.information  .text{
+
+  padding-bottom: 32px;
+
+}
+
+.information p {
+  font-size: 24px;
+}
+
+.right{
+  border: 5px solid brown;
+  max-width: 40%;
+  padding-top: 32px;
+
+}
+.university{
+  display: flex;
+
+  align-items: center;
+}
+.university img{
+  max-width: 35%;
+  padding: 0 16px 16px 16px;
+}
+
+.text-university{
+ max-width: 65%;
+}
+
+.text-university h2{
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.text-university p{
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.university .gap{
+  padding-top:  8px;
+  padding-bottom:  8px;
+}
+.guest {
+  background-color: #CECECE;
+}
+
+.course {
+
+}
+
+.course h1{
+  font-size: 2rem;
+}
