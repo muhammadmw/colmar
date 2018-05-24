@@ -54,6 +54,28 @@ nav .sign-in{
   padding-right: 24px;
 }
 
+@media only screen and (max-width: 760px) {
+  nav span {
+    display: none;
+  }
+.logo {
+  display: none;
+}
+  .mobile-nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  header{
+    height: 64px;
+  }
+}
+
+
+
+
+
 .banner{
   max-width: 100%;
   border: 5px dotted black;
