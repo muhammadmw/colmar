@@ -53,6 +53,9 @@ nav span a:hover {
 nav .sign-in{
   padding-right: 24px;
 }
+  .mobile-nav{
+    display: none;
+  }
 
 @media only screen and (max-width: 760px) {
   nav span {
@@ -71,11 +74,6 @@ nav .sign-in{
     height: 64px;
   }
 }
-
-
-
-
-
 .banner{
   max-width: 100%;
   border: 5px dotted black;
@@ -91,10 +89,27 @@ nav .sign-in{
 }
 img {
   max-width: 100%;
-  border: 2px solid red
+  border: 3px solid darkblue;
 }
+
+@media only screen and (max-width: 760px){
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .image-banner{
+    max-width: 100%;
+    padding: 0;
+  }
+
+
+  }
+
+
 .learn{
-  border: 5px solid green;
+  border: 5px solid red;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -121,9 +136,13 @@ img {
   padding-bottom: 8px;
   background-color: grey;
   width: 13em;
-
 }
 
+
+
+
+
+/* Information Section */
 .information {
   display: flex;
   border: 5px solid yellow;
@@ -194,7 +213,38 @@ img {
   padding-bottom:  8px;
 }
 
+@media only screen and (max-width: 760px){
+   img {
+     max-width: 100%;
+   }
 
+   .right {
+     display: flex;
+     flex-direction: column;
+     max-width: 100%;
+   }
+.learn {
+  padding-left: 16px;
+  padding-bottom: 32px;
+}
+
+.learn  h2{
+  padding-top: 32px;
+
+  padding-bottom: 32px;
+}
+.text-university{
+  display: flex;
+  flex-direction: column;
+
+}
+   .information .right {
+     max-width: 100%;
+   }
+   .information .left{
+     display: none;
+}
+}
 .course {
  padding: 32px 72px;
  display: flex;
@@ -244,6 +294,26 @@ img {
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 760px){
+  .course .individual img,span{
+    display: none;
+  }
+  .individual{
+    display: block;
+    border: 2px solid yellow;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Theis Section */
 .thesis {
   border: 5px solid yellow;
   max-width: 100%;
