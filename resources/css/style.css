@@ -502,13 +502,3 @@ footer span {
 .fa-instagram{
   background-color: #bc2a8d;
 }
-
-@media only screen and (max-width: 760px) {
-  .connect{
-    display: none;
-  }
-  .copyright{
-    display: block;
-  }
-
-}
