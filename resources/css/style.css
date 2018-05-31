@@ -140,7 +140,11 @@ img {
 
 }
 
-
+@media only screen and (max-width: 600px){
+  .learn .box {
+    width: 10em;
+  }
+}
 
 
 
@@ -293,6 +297,7 @@ img {
 .course .heading{
   display: flex;
   justify-content: center;
+  font-size: 2rem;
 }
 
  h1{
@@ -324,7 +329,7 @@ img {
   padding: 16px 0 24px 16px;
 }
 .course-content h2{
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
   padding: 8px 0;
 }
@@ -343,7 +348,11 @@ img {
     word-spacing: 15px;
 
   }
-  .course .individual img,span{
+  .course .individual img{
+    display: none;
+  }
+
+  .course .individual span{
     display: none;
   }
   .individual{
@@ -410,11 +419,14 @@ img {
   }
 .thesis .extra .left{
   padding-top: 0;
+  padding-bottom: 0;
   max-width: 100%;
 }
 
+
 video {
   max-width: 100%;
+  padding-bottom: 0;
 
 }
 }
@@ -501,4 +513,17 @@ footer span {
 }
 .fa-instagram{
   background-color: #bc2a8d;
+}
+@media only screen and (max-width: 760px) {
+.footer .connect  {
+    display: none;
+  }
+  .terms-privacy{
+    display: none;
+  }
+  .copyright2{
+
+    padding-top: 16px ;
+    padding-bottom: 16px;
+  }
 }
