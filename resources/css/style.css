@@ -9,14 +9,14 @@ header {
   display: flex;
   align-items: center;
   height:64px;
-  border: 2px solid yellow;
-  justify-content: space-between;
+
 }
 
 .header {
 
   padding-left: 24px;
-  border: 2px solid black;
+  flex: 1 1 auto;
+
 }
 .logo span{
   font-size: 2rem;
@@ -29,11 +29,16 @@ header {
 .logo  {
   display: flex;
   align-items: center;
-  border: 4px solid red;
+
   height: 32px;
 }
 .colmar{
   font-weight: 900;
+}
+
+nav{
+  
+  float: right;
 }
 nav span {
   padding-right: 16px;
@@ -76,7 +81,7 @@ nav .sign-in{
 }
 .banner{
   max-width: 100%;
-  border: 5px dotted black;
+
   display: flex;
   background-color: #DDDDDD;
   justify-content: space-between;
@@ -84,12 +89,17 @@ nav .sign-in{
 .image-banner {
 
   padding: 32px 24px;
-  border: 2px solid red;
+
   max-width: 60%;
 }
 img {
   max-width: 100%;
-  border: 3px solid darkblue;
+
+}
+
+.box{
+  max-width: 85%;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 760px){
@@ -109,12 +119,16 @@ img {
 
 
 .learn{
-  border: 5px solid red;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
   max-width: 40%;
 
+}
+
+.learn .right{
+  flex: 1 1 auto;
 }
 .learn h2 {
   font-size:  3.5rem;
@@ -141,6 +155,15 @@ img {
 }
 
 @media only screen and (max-width: 600px){
+
+   .learn  h2{
+     font-size: 42px;
+     width: 90%;
+   }
+   .learn p {
+     font-size: 37px;
+     max-width: 95%;
+   }
   .learn .box {
     width: 10em;
   }
@@ -151,13 +174,13 @@ img {
 /* Information Section */
 .information {
   display: flex;
-  border: 5px solid yellow;
+
   max-width: 100%;
 }
 
 .left {
   padding: 32px 24px;
-  border: 4px solid green;
+
   max-width: 60%;
 
 }
@@ -184,7 +207,7 @@ img {
 }
 
 .right{
-  border: 5px solid brown;
+
   max-width: 40%;
   padding-top: 32px;
 
@@ -224,7 +247,7 @@ img {
   display: flex;
 
   max-width: 100%;
-  border: 3px solid green;
+
   align-items: center;
 }
 
@@ -290,7 +313,7 @@ img {
  flex-wrap: wrap;
 
  justify-content: space-between;
- border: 4px solid darkgreen;
+
  background-color: #DDDDDD;
 }
 
@@ -316,7 +339,7 @@ img {
   margin-bottom: 32px;
   width: 28%;
   margin-right: 32px;
-  border: 4px solid darkblue;
+
   background-color: white;
 
 }
@@ -357,7 +380,7 @@ img {
   }
   .individual{
     display: block;
-    border: 2px solid yellow;
+
     width: 100%;
      background-color: #c0c0c0;
   }
@@ -375,7 +398,7 @@ img {
 /* Theis Section */
 .thesis {
 
-  border: 5px solid yellow;
+
   max-width: 100%;
 }
 .extra{
@@ -418,14 +441,17 @@ img {
     display: none;
   }
 .thesis .extra .left{
-  padding-top: 0;
+
+  padding-top: 16px;
   padding-bottom: 0;
   max-width: 100%;
 }
 
 
 video {
+
   max-width: 100%;
+    height: auto;
   padding-bottom: 0;
 
 }
@@ -460,7 +486,7 @@ footer{
   flex-direction: column;
   align-items: center;
   max-width: 100%;
-  border: 5px solid green;
+
   padding-right: 4em;
   flex: 1;
 }
